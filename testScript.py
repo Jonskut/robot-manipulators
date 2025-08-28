@@ -1,7 +1,6 @@
+from roboticstoolbox import DHRobot, RevoluteMDH
 
-from roboticstoolbox import DHRobot,RevoluteMDH
-
-#Defining the robot
+# Defining the robot
 planarRobot = DHRobot(
     [
         RevoluteMDH(),
